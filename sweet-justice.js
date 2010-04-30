@@ -185,7 +185,7 @@
 
   // jQuery
   function sweet_justice_jq() {
-    $('.sweet-justice').each(function(idx,el) {
+    $('p').each(function(idx,el) {
       $(el).css({
         'text-align':   'justify',
         'text-justify': 'distribute'
